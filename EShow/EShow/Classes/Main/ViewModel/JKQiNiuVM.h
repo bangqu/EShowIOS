@@ -1,0 +1,16 @@
+//
+//  JKQiNiuVM.h
+//  EShow
+//
+//  Created by 周家康 on 2018/5/10.
+//  Copyright © 2018年 周家康. All rights reserved.
+//
+
+#import "JKViewModel.h"
+
+@interface JKQiNiuVM : JKViewModel
+
+@property (nonatomic, strong) UIImage *image;
+
+- (void)QiNiuRequestWithSuccessBlock:(ReturnSuccessBlock)successBlock withFailureBlock:(ReturnFailureBlock)failureBlock;
+@end

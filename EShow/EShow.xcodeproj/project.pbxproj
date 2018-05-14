@@ -1,0 +1,961 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		349EF9691D9D63A56BDE827D /* libPods-EShow.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BF7CCE42367FE4FB88C4A5C4 /* libPods-EShow.a */; };
+		A84216A620A135F50008B1B2 /* JKModifyNickNameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216A520A135F50008B1B2 /* JKModifyNickNameVC.m */; };
+		A84216AC20A13F3D0008B1B2 /* JKToolKit.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216AB20A13F3D0008B1B2 /* JKToolKit.m */; };
+		A84216AF20A144880008B1B2 /* JKViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216AE20A144880008B1B2 /* JKViewModel.m */; };
+		A84216B620A175FE0008B1B2 /* JKGuidePagesView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216B520A175FE0008B1B2 /* JKGuidePagesView.m */; };
+		A84216B920A1782E0008B1B2 /* JKGuidePagesCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216B820A1782E0008B1B2 /* JKGuidePagesCell.m */; };
+		A84216BC20A18B150008B1B2 /* JKLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216BB20A18B150008B1B2 /* JKLoginVC.m */; };
+		A84216BF20A18E960008B1B2 /* JKGlobalSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216BE20A18E960008B1B2 /* JKGlobalSingleton.m */; };
+		A84216C320A191DA0008B1B2 /* JKLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216C220A191DA0008B1B2 /* JKLoginView.m */; };
+		A84216C620A1AA310008B1B2 /* JKLoginVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216C520A1AA310008B1B2 /* JKLoginVM.m */; };
+		A84216C920A1AF1A0008B1B2 /* JKUserInfoModel.m in Sources */ = {isa = PBXBuildFile; fileRef = A84216C820A1AF1A0008B1B2 /* JKUserInfoModel.m */; };
+		A855F3CB20A2862C00E48741 /* JKRegisterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3CA20A2862C00E48741 /* JKRegisterVC.m */; };
+		A855F3CE20A2891B00E48741 /* JKRegisterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3CD20A2891B00E48741 /* JKRegisterView.m */; };
+		A855F3D120A29C3500E48741 /* JKRegisterVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3D020A29C3500E48741 /* JKRegisterVM.m */; };
+		A855F3D420A2A73100E48741 /* JKForgetPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3D320A2A73100E48741 /* JKForgetPwdVC.m */; };
+		A855F3D720A2A8A200E48741 /* JKVerificationLoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3D620A2A8A200E48741 /* JKVerificationLoginVC.m */; };
+		A855F3DA20A2A94B00E48741 /* JKForgetPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3D920A2A94B00E48741 /* JKForgetPwdView.m */; };
+		A855F3DD20A2C5CA00E48741 /* JKForgetPwdVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3DC20A2C5CA00E48741 /* JKForgetPwdVM.m */; };
+		A855F3E020A2CD8900E48741 /* JKVerificationLoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3DF20A2CD8900E48741 /* JKVerificationLoginView.m */; };
+		A855F3E320A2D1BE00E48741 /* JKVerificationLoginVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3E220A2D1BE00E48741 /* JKVerificationLoginVM.m */; };
+		A855F3E620A2E3FE00E48741 /* JKBindPhoneVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3E520A2E3FE00E48741 /* JKBindPhoneVC.m */; };
+		A855F3E920A2E4A900E48741 /* JKBindPhoneView.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3E820A2E4A900E48741 /* JKBindPhoneView.m */; };
+		A855F3EF20A2F15100E48741 /* JKUpdateUserInfoVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A855F3EE20A2F15100E48741 /* JKUpdateUserInfoVM.m */; };
+		A85D336920A3F3DA00271155 /* JKIntroVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D336820A3F3DA00271155 /* JKIntroVC.m */; };
+		A85D336C20A4166800271155 /* JKQiNiuVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D336B20A4166800271155 /* JKQiNiuVM.m */; };
+		A85D337020A42EF200271155 /* JKSettingView.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D336F20A42EF200271155 /* JKSettingView.m */; };
+		A85D337320A430B900271155 /* JKSettingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D337220A430B900271155 /* JKSettingVC.m */; };
+		A85D337620A434AB00271155 /* JKAccountSecurityVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D337520A434AB00271155 /* JKAccountSecurityVC.m */; };
+		A85D337920A4363400271155 /* JKAccountSecurityView.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D337820A4363400271155 /* JKAccountSecurityView.m */; };
+		A85D337C20A43B6600271155 /* JKModifyPwdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D337B20A43B6600271155 /* JKModifyPwdVC.m */; };
+		A85D337F20A43B7900271155 /* JKSocialAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D337E20A43B7900271155 /* JKSocialAccountVC.m */; };
+		A85D338220A4450700271155 /* JKModifyPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D338120A4450700271155 /* JKModifyPwdView.m */; };
+		A85D338520A44B2600271155 /* JKModifyPwdVM.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D338420A44B2600271155 /* JKModifyPwdVM.m */; };
+		A85D338F20A44FC800271155 /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D338820A44FC800271155 /* NSTimer+addition.m */; };
+		A85D339020A44FC800271155 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D338A20A44FC800271155 /* UIView+Frame.m */; };
+		A85D339120A44FC800271155 /* WLWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D338C20A44FC800271155 /* WLWebProgressLayer.m */; };
+		A85D339220A44FC800271155 /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D338E20A44FC800271155 /* WYWebProgressLayer.m */; };
+		A85D339520A4501000271155 /* JKBaseWV.m in Sources */ = {isa = PBXBuildFile; fileRef = A85D339420A4501000271155 /* JKBaseWV.m */; };
+		A87F8C5D20A58CEE00917601 /* JKTouchIDAndFaceIDVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A87F8C5C20A58CEE00917601 /* JKTouchIDAndFaceIDVC.m */; };
+		A8EB5B9E20A02273002E8562 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8EB5B9D20A02273002E8562 /* Assets.xcassets */; };
+		A8EB5BC020A025C5002E8562 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BB420A025C5002E8562 /* AppDelegate.m */; };
+		A8EB5BC120A025C5002E8562 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EB5BB920A025C5002E8562 /* LaunchScreen.storyboard */; };
+		A8EB5BC220A025C5002E8562 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8EB5BBB20A025C5002E8562 /* Main.storyboard */; };
+		A8EB5BC320A025C5002E8562 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BBD20A025C5002E8562 /* main.m */; };
+		A8EB5BCE20A02998002E8562 /* images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A8EB5BCB20A02998002E8562 /* images.bundle */; };
+		A8EB5BCF20A02998002E8562 /* YJProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BCD20A02998002E8562 /* YJProgressHUD.m */; };
+		A8EB5BD220A02A29002E8562 /* JKBaseVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BD120A02A29002E8562 /* JKBaseVC.m */; };
+		A8EB5BD520A02A43002E8562 /* JKMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BD420A02A43002E8562 /* JKMineVC.m */; };
+		A8EB5BDB20A02FE3002E8562 /* UIView+JKAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BDA20A02FE3002E8562 /* UIView+JKAdapt.m */; };
+		A8EB5BDE20A03029002E8562 /* UIFont+JKAdapt.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BDD20A03029002E8562 /* UIFont+JKAdapt.m */; };
+		A8EB5BE120A03091002E8562 /* NSString+JKExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BE020A03091002E8562 /* NSString+JKExtension.m */; };
+		A8EB5BE420A0313F002E8562 /* JKHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BE320A0313F002E8562 /* JKHttpTool.m */; };
+		A8EB5BE720A03E4C002E8562 /* JKNavigationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BE620A03E4C002E8562 /* JKNavigationVC.m */; };
+		A8EB5BEB20A042D4002E8562 /* JKMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BEA20A042D4002E8562 /* JKMainVC.m */; };
+		A8EB5BF320A04BD4002E8562 /* JKMainView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BF220A04BD4002E8562 /* JKMainView.m */; };
+		A8EB5BF620A051BD002E8562 /* JKPersonalCenterVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BF520A051BD002E8562 /* JKPersonalCenterVC.m */; };
+		A8EB5BF920A058B0002E8562 /* JKPersonCenterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A8EB5BF820A058B0002E8562 /* JKPersonCenterView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A84216A420A135F50008B1B2 /* JKModifyNickNameVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKModifyNickNameVC.h; sourceTree = "<group>"; };
+		A84216A520A135F50008B1B2 /* JKModifyNickNameVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKModifyNickNameVC.m; sourceTree = "<group>"; };
+		A84216AA20A13F3D0008B1B2 /* JKToolKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKToolKit.h; sourceTree = "<group>"; };
+		A84216AB20A13F3D0008B1B2 /* JKToolKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKToolKit.m; sourceTree = "<group>"; };
+		A84216AD20A144880008B1B2 /* JKViewModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKViewModel.h; sourceTree = "<group>"; };
+		A84216AE20A144880008B1B2 /* JKViewModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKViewModel.m; sourceTree = "<group>"; };
+		A84216B420A175FE0008B1B2 /* JKGuidePagesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKGuidePagesView.h; sourceTree = "<group>"; };
+		A84216B520A175FE0008B1B2 /* JKGuidePagesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKGuidePagesView.m; sourceTree = "<group>"; };
+		A84216B720A1782E0008B1B2 /* JKGuidePagesCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKGuidePagesCell.h; sourceTree = "<group>"; };
+		A84216B820A1782E0008B1B2 /* JKGuidePagesCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKGuidePagesCell.m; sourceTree = "<group>"; };
+		A84216BA20A18B150008B1B2 /* JKLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKLoginVC.h; sourceTree = "<group>"; };
+		A84216BB20A18B150008B1B2 /* JKLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKLoginVC.m; sourceTree = "<group>"; };
+		A84216BD20A18E960008B1B2 /* JKGlobalSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKGlobalSingleton.h; sourceTree = "<group>"; };
+		A84216BE20A18E960008B1B2 /* JKGlobalSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKGlobalSingleton.m; sourceTree = "<group>"; };
+		A84216C120A191DA0008B1B2 /* JKLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKLoginView.h; sourceTree = "<group>"; };
+		A84216C220A191DA0008B1B2 /* JKLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKLoginView.m; sourceTree = "<group>"; };
+		A84216C420A1AA310008B1B2 /* JKLoginVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKLoginVM.h; sourceTree = "<group>"; };
+		A84216C520A1AA310008B1B2 /* JKLoginVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKLoginVM.m; sourceTree = "<group>"; };
+		A84216C720A1AF1A0008B1B2 /* JKUserInfoModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKUserInfoModel.h; sourceTree = "<group>"; };
+		A84216C820A1AF1A0008B1B2 /* JKUserInfoModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKUserInfoModel.m; sourceTree = "<group>"; };
+		A855F3C920A2862C00E48741 /* JKRegisterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRegisterVC.h; sourceTree = "<group>"; };
+		A855F3CA20A2862C00E48741 /* JKRegisterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRegisterVC.m; sourceTree = "<group>"; };
+		A855F3CC20A2891B00E48741 /* JKRegisterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRegisterView.h; sourceTree = "<group>"; };
+		A855F3CD20A2891B00E48741 /* JKRegisterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRegisterView.m; sourceTree = "<group>"; };
+		A855F3CF20A29C3500E48741 /* JKRegisterVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKRegisterVM.h; sourceTree = "<group>"; };
+		A855F3D020A29C3500E48741 /* JKRegisterVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKRegisterVM.m; sourceTree = "<group>"; };
+		A855F3D220A2A73100E48741 /* JKForgetPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKForgetPwdVC.h; sourceTree = "<group>"; };
+		A855F3D320A2A73100E48741 /* JKForgetPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKForgetPwdVC.m; sourceTree = "<group>"; };
+		A855F3D520A2A8A200E48741 /* JKVerificationLoginVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKVerificationLoginVC.h; sourceTree = "<group>"; };
+		A855F3D620A2A8A200E48741 /* JKVerificationLoginVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKVerificationLoginVC.m; sourceTree = "<group>"; };
+		A855F3D820A2A94B00E48741 /* JKForgetPwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKForgetPwdView.h; sourceTree = "<group>"; };
+		A855F3D920A2A94B00E48741 /* JKForgetPwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKForgetPwdView.m; sourceTree = "<group>"; };
+		A855F3DB20A2C5CA00E48741 /* JKForgetPwdVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKForgetPwdVM.h; sourceTree = "<group>"; };
+		A855F3DC20A2C5CA00E48741 /* JKForgetPwdVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKForgetPwdVM.m; sourceTree = "<group>"; };
+		A855F3DE20A2CD8900E48741 /* JKVerificationLoginView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKVerificationLoginView.h; sourceTree = "<group>"; };
+		A855F3DF20A2CD8900E48741 /* JKVerificationLoginView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKVerificationLoginView.m; sourceTree = "<group>"; };
+		A855F3E120A2D1BE00E48741 /* JKVerificationLoginVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKVerificationLoginVM.h; sourceTree = "<group>"; };
+		A855F3E220A2D1BE00E48741 /* JKVerificationLoginVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKVerificationLoginVM.m; sourceTree = "<group>"; };
+		A855F3E420A2E3FE00E48741 /* JKBindPhoneVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKBindPhoneVC.h; sourceTree = "<group>"; };
+		A855F3E520A2E3FE00E48741 /* JKBindPhoneVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKBindPhoneVC.m; sourceTree = "<group>"; };
+		A855F3E720A2E4A900E48741 /* JKBindPhoneView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKBindPhoneView.h; sourceTree = "<group>"; };
+		A855F3E820A2E4A900E48741 /* JKBindPhoneView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKBindPhoneView.m; sourceTree = "<group>"; };
+		A855F3ED20A2F15100E48741 /* JKUpdateUserInfoVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKUpdateUserInfoVM.h; sourceTree = "<group>"; };
+		A855F3EE20A2F15100E48741 /* JKUpdateUserInfoVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKUpdateUserInfoVM.m; sourceTree = "<group>"; };
+		A85D336620A3ED3700271155 /* Params.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Params.h; sourceTree = "<group>"; };
+		A85D336720A3F3DA00271155 /* JKIntroVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKIntroVC.h; sourceTree = "<group>"; };
+		A85D336820A3F3DA00271155 /* JKIntroVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKIntroVC.m; sourceTree = "<group>"; };
+		A85D336A20A4166800271155 /* JKQiNiuVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKQiNiuVM.h; sourceTree = "<group>"; };
+		A85D336B20A4166800271155 /* JKQiNiuVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKQiNiuVM.m; sourceTree = "<group>"; };
+		A85D336E20A42EF200271155 /* JKSettingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSettingView.h; sourceTree = "<group>"; };
+		A85D336F20A42EF200271155 /* JKSettingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSettingView.m; sourceTree = "<group>"; };
+		A85D337120A430B900271155 /* JKSettingVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSettingVC.h; sourceTree = "<group>"; };
+		A85D337220A430B900271155 /* JKSettingVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSettingVC.m; sourceTree = "<group>"; };
+		A85D337420A434AB00271155 /* JKAccountSecurityVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAccountSecurityVC.h; sourceTree = "<group>"; };
+		A85D337520A434AB00271155 /* JKAccountSecurityVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAccountSecurityVC.m; sourceTree = "<group>"; };
+		A85D337720A4363400271155 /* JKAccountSecurityView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKAccountSecurityView.h; sourceTree = "<group>"; };
+		A85D337820A4363400271155 /* JKAccountSecurityView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKAccountSecurityView.m; sourceTree = "<group>"; };
+		A85D337A20A43B6600271155 /* JKModifyPwdVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKModifyPwdVC.h; sourceTree = "<group>"; };
+		A85D337B20A43B6600271155 /* JKModifyPwdVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKModifyPwdVC.m; sourceTree = "<group>"; };
+		A85D337D20A43B7900271155 /* JKSocialAccountVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKSocialAccountVC.h; sourceTree = "<group>"; };
+		A85D337E20A43B7900271155 /* JKSocialAccountVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKSocialAccountVC.m; sourceTree = "<group>"; };
+		A85D338020A4450700271155 /* JKModifyPwdView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKModifyPwdView.h; sourceTree = "<group>"; };
+		A85D338120A4450700271155 /* JKModifyPwdView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKModifyPwdView.m; sourceTree = "<group>"; };
+		A85D338320A44B2600271155 /* JKModifyPwdVM.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKModifyPwdVM.h; sourceTree = "<group>"; };
+		A85D338420A44B2600271155 /* JKModifyPwdVM.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKModifyPwdVM.m; sourceTree = "<group>"; };
+		A85D338720A44FC800271155 /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		A85D338820A44FC800271155 /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		A85D338920A44FC800271155 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		A85D338A20A44FC800271155 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		A85D338B20A44FC800271155 /* WLWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WLWebProgressLayer.h; sourceTree = "<group>"; };
+		A85D338C20A44FC800271155 /* WLWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WLWebProgressLayer.m; sourceTree = "<group>"; };
+		A85D338D20A44FC800271155 /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		A85D338E20A44FC800271155 /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
+		A85D339320A4501000271155 /* JKBaseWV.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKBaseWV.h; sourceTree = "<group>"; };
+		A85D339420A4501000271155 /* JKBaseWV.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKBaseWV.m; sourceTree = "<group>"; };
+		A87F8C5B20A58CED00917601 /* JKTouchIDAndFaceIDVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKTouchIDAndFaceIDVC.h; sourceTree = "<group>"; };
+		A87F8C5C20A58CEE00917601 /* JKTouchIDAndFaceIDVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKTouchIDAndFaceIDVC.m; sourceTree = "<group>"; };
+		A8EB5B9120A02273002E8562 /* EShow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EShow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8EB5B9D20A02273002E8562 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8EB5BA220A02273002E8562 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EB5BB320A025C5002E8562 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A8EB5BB420A025C5002E8562 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A8EB5BBA20A025C5002E8562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8EB5BBC20A025C5002E8562 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8EB5BBD20A025C5002E8562 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A8EB5BC420A0279E002E8562 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A8EB5BC520A028C4002E8562 /* Macros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Macros.h; sourceTree = "<group>"; };
+		A8EB5BC920A02910002E8562 /* NetUrl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetUrl.h; sourceTree = "<group>"; };
+		A8EB5BCB20A02998002E8562 /* images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = images.bundle; sourceTree = "<group>"; };
+		A8EB5BCC20A02998002E8562 /* YJProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YJProgressHUD.h; sourceTree = "<group>"; };
+		A8EB5BCD20A02998002E8562 /* YJProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YJProgressHUD.m; sourceTree = "<group>"; };
+		A8EB5BD020A02A29002E8562 /* JKBaseVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKBaseVC.h; sourceTree = "<group>"; };
+		A8EB5BD120A02A29002E8562 /* JKBaseVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKBaseVC.m; sourceTree = "<group>"; };
+		A8EB5BD320A02A43002E8562 /* JKMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMineVC.h; sourceTree = "<group>"; };
+		A8EB5BD420A02A43002E8562 /* JKMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKMineVC.m; sourceTree = "<group>"; };
+		A8EB5BD920A02FE3002E8562 /* UIView+JKAdapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JKAdapt.h"; sourceTree = "<group>"; };
+		A8EB5BDA20A02FE3002E8562 /* UIView+JKAdapt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKAdapt.m"; sourceTree = "<group>"; };
+		A8EB5BDC20A03029002E8562 /* UIFont+JKAdapt.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+JKAdapt.h"; sourceTree = "<group>"; };
+		A8EB5BDD20A03029002E8562 /* UIFont+JKAdapt.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+JKAdapt.m"; sourceTree = "<group>"; };
+		A8EB5BDF20A03091002E8562 /* NSString+JKExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+JKExtension.h"; sourceTree = "<group>"; };
+		A8EB5BE020A03091002E8562 /* NSString+JKExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+JKExtension.m"; sourceTree = "<group>"; };
+		A8EB5BE220A0313F002E8562 /* JKHttpTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKHttpTool.h; sourceTree = "<group>"; };
+		A8EB5BE320A0313F002E8562 /* JKHttpTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKHttpTool.m; sourceTree = "<group>"; };
+		A8EB5BE520A03E4C002E8562 /* JKNavigationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKNavigationVC.h; sourceTree = "<group>"; };
+		A8EB5BE620A03E4C002E8562 /* JKNavigationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKNavigationVC.m; sourceTree = "<group>"; };
+		A8EB5BE920A042D4002E8562 /* JKMainVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMainVC.h; sourceTree = "<group>"; };
+		A8EB5BEA20A042D4002E8562 /* JKMainVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKMainVC.m; sourceTree = "<group>"; };
+		A8EB5BF120A04BD4002E8562 /* JKMainView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMainView.h; sourceTree = "<group>"; };
+		A8EB5BF220A04BD4002E8562 /* JKMainView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKMainView.m; sourceTree = "<group>"; };
+		A8EB5BF420A051BD002E8562 /* JKPersonalCenterVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPersonalCenterVC.h; sourceTree = "<group>"; };
+		A8EB5BF520A051BD002E8562 /* JKPersonalCenterVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPersonalCenterVC.m; sourceTree = "<group>"; };
+		A8EB5BF720A058B0002E8562 /* JKPersonCenterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKPersonCenterView.h; sourceTree = "<group>"; };
+		A8EB5BF820A058B0002E8562 /* JKPersonCenterView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKPersonCenterView.m; sourceTree = "<group>"; };
+		A9F1650DA62FC2E7F3D312C1 /* Pods-EShow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShow.release.xcconfig"; path = "Pods/Target Support Files/Pods-EShow/Pods-EShow.release.xcconfig"; sourceTree = "<group>"; };
+		BF7CCE42367FE4FB88C4A5C4 /* libPods-EShow.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EShow.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9580085ADDB2158BC5A62FF /* Pods-EShow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EShow.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EShow/Pods-EShow.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8EB5B8E20A02273002E8562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				349EF9691D9D63A56BDE827D /* libPods-EShow.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CD0284A48D02505E9D24C34 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF7CCE42367FE4FB88C4A5C4 /* libPods-EShow.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		961DB8431669D5FBC04438C3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E9580085ADDB2158BC5A62FF /* Pods-EShow.debug.xcconfig */,
+				A9F1650DA62FC2E7F3D312C1 /* Pods-EShow.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A84216A320A135A70008B1B2 /* PersonalCenter */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BF420A051BD002E8562 /* JKPersonalCenterVC.h */,
+				A8EB5BF520A051BD002E8562 /* JKPersonalCenterVC.m */,
+				A84216A420A135F50008B1B2 /* JKModifyNickNameVC.h */,
+				A84216A520A135F50008B1B2 /* JKModifyNickNameVC.m */,
+				A85D336720A3F3DA00271155 /* JKIntroVC.h */,
+				A85D336820A3F3DA00271155 /* JKIntroVC.m */,
+			);
+			path = PersonalCenter;
+			sourceTree = "<group>";
+		};
+		A84216B020A174F50008B1B2 /* Guide */ = {
+			isa = PBXGroup;
+			children = (
+				A84216B420A175FE0008B1B2 /* JKGuidePagesView.h */,
+				A84216B520A175FE0008B1B2 /* JKGuidePagesView.m */,
+				A84216B720A1782E0008B1B2 /* JKGuidePagesCell.h */,
+				A84216B820A1782E0008B1B2 /* JKGuidePagesCell.m */,
+			);
+			path = Guide;
+			sourceTree = "<group>";
+		};
+		A855F3C520A2856100E48741 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A84216BA20A18B150008B1B2 /* JKLoginVC.h */,
+				A84216BB20A18B150008B1B2 /* JKLoginVC.m */,
+				A855F3C920A2862C00E48741 /* JKRegisterVC.h */,
+				A855F3CA20A2862C00E48741 /* JKRegisterVC.m */,
+				A855F3D220A2A73100E48741 /* JKForgetPwdVC.h */,
+				A855F3D320A2A73100E48741 /* JKForgetPwdVC.m */,
+				A855F3D520A2A8A200E48741 /* JKVerificationLoginVC.h */,
+				A855F3D620A2A8A200E48741 /* JKVerificationLoginVC.m */,
+				A855F3E420A2E3FE00E48741 /* JKBindPhoneVC.h */,
+				A855F3E520A2E3FE00E48741 /* JKBindPhoneVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A855F3C620A2856100E48741 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A84216C120A191DA0008B1B2 /* JKLoginView.h */,
+				A84216C220A191DA0008B1B2 /* JKLoginView.m */,
+				A855F3CC20A2891B00E48741 /* JKRegisterView.h */,
+				A855F3CD20A2891B00E48741 /* JKRegisterView.m */,
+				A855F3D820A2A94B00E48741 /* JKForgetPwdView.h */,
+				A855F3D920A2A94B00E48741 /* JKForgetPwdView.m */,
+				A855F3DE20A2CD8900E48741 /* JKVerificationLoginView.h */,
+				A855F3DF20A2CD8900E48741 /* JKVerificationLoginView.m */,
+				A855F3E720A2E4A900E48741 /* JKBindPhoneView.h */,
+				A855F3E820A2E4A900E48741 /* JKBindPhoneView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A855F3C720A2856100E48741 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A84216C720A1AF1A0008B1B2 /* JKUserInfoModel.h */,
+				A84216C820A1AF1A0008B1B2 /* JKUserInfoModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A855F3C820A2856100E48741 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A84216C420A1AA310008B1B2 /* JKLoginVM.h */,
+				A84216C520A1AA310008B1B2 /* JKLoginVM.m */,
+				A855F3CF20A29C3500E48741 /* JKRegisterVM.h */,
+				A855F3D020A29C3500E48741 /* JKRegisterVM.m */,
+				A855F3DB20A2C5CA00E48741 /* JKForgetPwdVM.h */,
+				A855F3DC20A2C5CA00E48741 /* JKForgetPwdVM.m */,
+				A855F3E120A2D1BE00E48741 /* JKVerificationLoginVM.h */,
+				A855F3E220A2D1BE00E48741 /* JKVerificationLoginVM.m */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A85D336D20A42E8900271155 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				A85D337120A430B900271155 /* JKSettingVC.h */,
+				A85D337220A430B900271155 /* JKSettingVC.m */,
+				A85D337420A434AB00271155 /* JKAccountSecurityVC.h */,
+				A85D337520A434AB00271155 /* JKAccountSecurityVC.m */,
+				A85D337A20A43B6600271155 /* JKModifyPwdVC.h */,
+				A85D337B20A43B6600271155 /* JKModifyPwdVC.m */,
+				A85D337D20A43B7900271155 /* JKSocialAccountVC.h */,
+				A85D337E20A43B7900271155 /* JKSocialAccountVC.m */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		A85D338620A44FC800271155 /* WYWebController */ = {
+			isa = PBXGroup;
+			children = (
+				A85D338720A44FC800271155 /* NSTimer+addition.h */,
+				A85D338820A44FC800271155 /* NSTimer+addition.m */,
+				A85D338920A44FC800271155 /* UIView+Frame.h */,
+				A85D338A20A44FC800271155 /* UIView+Frame.m */,
+				A85D338B20A44FC800271155 /* WLWebProgressLayer.h */,
+				A85D338C20A44FC800271155 /* WLWebProgressLayer.m */,
+				A85D338D20A44FC800271155 /* WYWebProgressLayer.h */,
+				A85D338E20A44FC800271155 /* WYWebProgressLayer.m */,
+			);
+			path = WYWebController;
+			sourceTree = "<group>";
+		};
+		A87F8C5A20A58CCD00917601 /* TouchIDAndFaceID */ = {
+			isa = PBXGroup;
+			children = (
+				A87F8C5B20A58CED00917601 /* JKTouchIDAndFaceIDVC.h */,
+				A87F8C5C20A58CEE00917601 /* JKTouchIDAndFaceIDVC.m */,
+			);
+			path = TouchIDAndFaceID;
+			sourceTree = "<group>";
+		};
+		A8EB5B8820A02273002E8562 = {
+			isa = PBXGroup;
+			children = (
+				A8EB5B9320A02273002E8562 /* EShow */,
+				A8EB5B9220A02273002E8562 /* Products */,
+				961DB8431669D5FBC04438C3 /* Pods */,
+				7CD0284A48D02505E9D24C34 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A8EB5B9220A02273002E8562 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5B9120A02273002E8562 /* EShow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8EB5B9320A02273002E8562 /* EShow */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BAF20A025C5002E8562 /* Classes */,
+				A8EB5BAA20A025C5002E8562 /* Expand */,
+				A8EB5BBF20A025C5002E8562 /* Vender */,
+				A8EB5B9D20A02273002E8562 /* Assets.xcassets */,
+				A8EB5BA220A02273002E8562 /* Info.plist */,
+			);
+			path = EShow;
+			sourceTree = "<group>";
+		};
+		A8EB5BAA20A025C5002E8562 /* Expand */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BAC20A025C5002E8562 /* Macros */,
+				A8EB5BAE20A025C5002E8562 /* Tool */,
+				A8EB5BAB20A025C5002E8562 /* Category */,
+				A8EB5BAD20A025C5002E8562 /* Network */,
+			);
+			path = Expand;
+			sourceTree = "<group>";
+		};
+		A8EB5BAB20A025C5002E8562 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BD920A02FE3002E8562 /* UIView+JKAdapt.h */,
+				A8EB5BDA20A02FE3002E8562 /* UIView+JKAdapt.m */,
+				A8EB5BDC20A03029002E8562 /* UIFont+JKAdapt.h */,
+				A8EB5BDD20A03029002E8562 /* UIFont+JKAdapt.m */,
+				A8EB5BDF20A03091002E8562 /* NSString+JKExtension.h */,
+				A8EB5BE020A03091002E8562 /* NSString+JKExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		A8EB5BAC20A025C5002E8562 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BC520A028C4002E8562 /* Macros.h */,
+				A85D336620A3ED3700271155 /* Params.h */,
+				A8EB5BC920A02910002E8562 /* NetUrl.h */,
+				A8EB5BC420A0279E002E8562 /* PrefixHeader.pch */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		A8EB5BAD20A025C5002E8562 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BE220A0313F002E8562 /* JKHttpTool.h */,
+				A8EB5BE320A0313F002E8562 /* JKHttpTool.m */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A8EB5BAE20A025C5002E8562 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				A84216AA20A13F3D0008B1B2 /* JKToolKit.h */,
+				A84216AB20A13F3D0008B1B2 /* JKToolKit.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		A8EB5BAF20A025C5002E8562 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BE820A042C1002E8562 /* Main */,
+				A8EB5BB020A025C5002E8562 /* Mine */,
+				A8EB5BB120A025C5002E8562 /* Other */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		A8EB5BB020A025C5002E8562 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BD320A02A43002E8562 /* JKMineVC.h */,
+				A8EB5BD420A02A43002E8562 /* JKMineVC.m */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		A8EB5BB120A025C5002E8562 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BB220A025C5002E8562 /* AppDelegate */,
+				A84216B020A174F50008B1B2 /* Guide */,
+				A8EB5BB520A025C5002E8562 /* Base */,
+				A8EB5BB720A025C5002E8562 /* Navigation */,
+				A8EB5BBE20A025C5002E8562 /* Tabbar */,
+				A8EB5BB820A025C5002E8562 /* Other */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A8EB5BB220A025C5002E8562 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BB320A025C5002E8562 /* AppDelegate.h */,
+				A8EB5BB420A025C5002E8562 /* AppDelegate.m */,
+				A84216BD20A18E960008B1B2 /* JKGlobalSingleton.h */,
+				A84216BE20A18E960008B1B2 /* JKGlobalSingleton.m */,
+				A855F3C520A2856100E48741 /* Controller */,
+				A855F3C820A2856100E48741 /* ViewModel */,
+				A855F3C720A2856100E48741 /* Model */,
+				A855F3C620A2856100E48741 /* View */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A8EB5BB520A025C5002E8562 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BD020A02A29002E8562 /* JKBaseVC.h */,
+				A8EB5BD120A02A29002E8562 /* JKBaseVC.m */,
+				A84216AD20A144880008B1B2 /* JKViewModel.h */,
+				A84216AE20A144880008B1B2 /* JKViewModel.m */,
+				A85D339320A4501000271155 /* JKBaseWV.h */,
+				A85D339420A4501000271155 /* JKBaseWV.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		A8EB5BB720A025C5002E8562 /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BE520A03E4C002E8562 /* JKNavigationVC.h */,
+				A8EB5BE620A03E4C002E8562 /* JKNavigationVC.m */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		A8EB5BB820A025C5002E8562 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BB920A025C5002E8562 /* LaunchScreen.storyboard */,
+				A8EB5BBB20A025C5002E8562 /* Main.storyboard */,
+				A8EB5BBD20A025C5002E8562 /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		A8EB5BBE20A025C5002E8562 /* Tabbar */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tabbar;
+			sourceTree = "<group>";
+		};
+		A8EB5BBF20A025C5002E8562 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+				A85D338620A44FC800271155 /* WYWebController */,
+				A8EB5BCA20A02998002E8562 /* YJProgressHUDK */,
+			);
+			path = Vender;
+			sourceTree = "<group>";
+		};
+		A8EB5BCA20A02998002E8562 /* YJProgressHUDK */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BCB20A02998002E8562 /* images.bundle */,
+				A8EB5BCC20A02998002E8562 /* YJProgressHUD.h */,
+				A8EB5BCD20A02998002E8562 /* YJProgressHUD.m */,
+			);
+			path = YJProgressHUDK;
+			sourceTree = "<group>";
+		};
+		A8EB5BE820A042C1002E8562 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BEE20A0450D002E8562 /* Controller */,
+				A8EB5BF020A0499A002E8562 /* ViewModel */,
+				A8EB5BEC20A0450D002E8562 /* Model */,
+				A8EB5BED20A0450D002E8562 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		A8EB5BEC20A0450D002E8562 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A8EB5BED20A0450D002E8562 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BF120A04BD4002E8562 /* JKMainView.h */,
+				A8EB5BF220A04BD4002E8562 /* JKMainView.m */,
+				A8EB5BF720A058B0002E8562 /* JKPersonCenterView.h */,
+				A8EB5BF820A058B0002E8562 /* JKPersonCenterView.m */,
+				A85D336E20A42EF200271155 /* JKSettingView.h */,
+				A85D336F20A42EF200271155 /* JKSettingView.m */,
+				A85D337720A4363400271155 /* JKAccountSecurityView.h */,
+				A85D337820A4363400271155 /* JKAccountSecurityView.m */,
+				A85D338020A4450700271155 /* JKModifyPwdView.h */,
+				A85D338120A4450700271155 /* JKModifyPwdView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A8EB5BEE20A0450D002E8562 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A8EB5BE920A042D4002E8562 /* JKMainVC.h */,
+				A8EB5BEA20A042D4002E8562 /* JKMainVC.m */,
+				A87F8C5A20A58CCD00917601 /* TouchIDAndFaceID */,
+				A84216A320A135A70008B1B2 /* PersonalCenter */,
+				A85D336D20A42E8900271155 /* Setting */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A8EB5BF020A0499A002E8562 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A855F3ED20A2F15100E48741 /* JKUpdateUserInfoVM.h */,
+				A855F3EE20A2F15100E48741 /* JKUpdateUserInfoVM.m */,
+				A85D336A20A4166800271155 /* JKQiNiuVM.h */,
+				A85D336B20A4166800271155 /* JKQiNiuVM.m */,
+				A85D338320A44B2600271155 /* JKModifyPwdVM.h */,
+				A85D338420A44B2600271155 /* JKModifyPwdVM.m */,
+			);
+			name = ViewModel;
+			path = EShow/Classes/Main/ViewModel;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8EB5B9020A02273002E8562 /* EShow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8EB5BA720A02273002E8562 /* Build configuration list for PBXNativeTarget "EShow" */;
+			buildPhases = (
+				60F49EC4FD2C5CF7081B3421 /* [CP] Check Pods Manifest.lock */,
+				A8EB5B8D20A02273002E8562 /* Sources */,
+				A8EB5B8E20A02273002E8562 /* Frameworks */,
+				A8EB5B8F20A02273002E8562 /* Resources */,
+				9F4605CE3EA3735F02040C5A /* [CP] Embed Pods Frameworks */,
+				53C420CF86F805D445CBB991 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EShow;
+			productName = EShow;
+			productReference = A8EB5B9120A02273002E8562 /* EShow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A8EB5B8920A02273002E8562 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JK;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "周家康";
+				TargetAttributes = {
+					A8EB5B9020A02273002E8562 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = A8EB5B8C20A02273002E8562 /* Build configuration list for PBXProject "EShow" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A8EB5B8820A02273002E8562;
+			productRefGroup = A8EB5B9220A02273002E8562 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8EB5B9020A02273002E8562 /* EShow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8EB5B8F20A02273002E8562 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8EB5BC220A025C5002E8562 /* Main.storyboard in Resources */,
+				A8EB5B9E20A02273002E8562 /* Assets.xcassets in Resources */,
+				A8EB5BC120A025C5002E8562 /* LaunchScreen.storyboard in Resources */,
+				A8EB5BCE20A02998002E8562 /* images.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53C420CF86F805D445CBB991 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EShow/Pods-EShow-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F49EC4FD2C5CF7081B3421 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EShow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F4605CE3EA3735F02040C5A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EShow/Pods-EShow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8EB5B8D20A02273002E8562 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A855F3CE20A2891B00E48741 /* JKRegisterView.m in Sources */,
+				A8EB5BCF20A02998002E8562 /* YJProgressHUD.m in Sources */,
+				A855F3E020A2CD8900E48741 /* JKVerificationLoginView.m in Sources */,
+				A855F3E920A2E4A900E48741 /* JKBindPhoneView.m in Sources */,
+				A84216B920A1782E0008B1B2 /* JKGuidePagesCell.m in Sources */,
+				A85D336920A3F3DA00271155 /* JKIntroVC.m in Sources */,
+				A855F3CB20A2862C00E48741 /* JKRegisterVC.m in Sources */,
+				A8EB5BF920A058B0002E8562 /* JKPersonCenterView.m in Sources */,
+				A8EB5BE720A03E4C002E8562 /* JKNavigationVC.m in Sources */,
+				A85D339220A44FC800271155 /* WYWebProgressLayer.m in Sources */,
+				A85D338520A44B2600271155 /* JKModifyPwdVM.m in Sources */,
+				A85D337920A4363400271155 /* JKAccountSecurityView.m in Sources */,
+				A8EB5BC320A025C5002E8562 /* main.m in Sources */,
+				A8EB5BF320A04BD4002E8562 /* JKMainView.m in Sources */,
+				A855F3DD20A2C5CA00E48741 /* JKForgetPwdVM.m in Sources */,
+				A84216AF20A144880008B1B2 /* JKViewModel.m in Sources */,
+				A8EB5BE420A0313F002E8562 /* JKHttpTool.m in Sources */,
+				A8EB5BEB20A042D4002E8562 /* JKMainVC.m in Sources */,
+				A85D337F20A43B7900271155 /* JKSocialAccountVC.m in Sources */,
+				A8EB5BE120A03091002E8562 /* NSString+JKExtension.m in Sources */,
+				A8EB5BDE20A03029002E8562 /* UIFont+JKAdapt.m in Sources */,
+				A85D339520A4501000271155 /* JKBaseWV.m in Sources */,
+				A85D337C20A43B6600271155 /* JKModifyPwdVC.m in Sources */,
+				A855F3DA20A2A94B00E48741 /* JKForgetPwdView.m in Sources */,
+				A855F3D420A2A73100E48741 /* JKForgetPwdVC.m in Sources */,
+				A8EB5BD520A02A43002E8562 /* JKMineVC.m in Sources */,
+				A85D339020A44FC800271155 /* UIView+Frame.m in Sources */,
+				A85D338F20A44FC800271155 /* NSTimer+addition.m in Sources */,
+				A85D339120A44FC800271155 /* WLWebProgressLayer.m in Sources */,
+				A85D337320A430B900271155 /* JKSettingVC.m in Sources */,
+				A84216AC20A13F3D0008B1B2 /* JKToolKit.m in Sources */,
+				A85D337020A42EF200271155 /* JKSettingView.m in Sources */,
+				A84216A620A135F50008B1B2 /* JKModifyNickNameVC.m in Sources */,
+				A855F3E320A2D1BE00E48741 /* JKVerificationLoginVM.m in Sources */,
+				A84216BC20A18B150008B1B2 /* JKLoginVC.m in Sources */,
+				A85D337620A434AB00271155 /* JKAccountSecurityVC.m in Sources */,
+				A855F3D720A2A8A200E48741 /* JKVerificationLoginVC.m in Sources */,
+				A85D338220A4450700271155 /* JKModifyPwdView.m in Sources */,
+				A8EB5BD220A02A29002E8562 /* JKBaseVC.m in Sources */,
+				A84216C320A191DA0008B1B2 /* JKLoginView.m in Sources */,
+				A84216B620A175FE0008B1B2 /* JKGuidePagesView.m in Sources */,
+				A855F3E620A2E3FE00E48741 /* JKBindPhoneVC.m in Sources */,
+				A87F8C5D20A58CEE00917601 /* JKTouchIDAndFaceIDVC.m in Sources */,
+				A8EB5BDB20A02FE3002E8562 /* UIView+JKAdapt.m in Sources */,
+				A84216C620A1AA310008B1B2 /* JKLoginVM.m in Sources */,
+				A8EB5BF620A051BD002E8562 /* JKPersonalCenterVC.m in Sources */,
+				A85D336C20A4166800271155 /* JKQiNiuVM.m in Sources */,
+				A8EB5BC020A025C5002E8562 /* AppDelegate.m in Sources */,
+				A84216BF20A18E960008B1B2 /* JKGlobalSingleton.m in Sources */,
+				A855F3EF20A2F15100E48741 /* JKUpdateUserInfoVM.m in Sources */,
+				A84216C920A1AF1A0008B1B2 /* JKUserInfoModel.m in Sources */,
+				A855F3D120A29C3500E48741 /* JKRegisterVM.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A8EB5BB920A025C5002E8562 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8EB5BBA20A025C5002E8562 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A8EB5BBB20A025C5002E8562 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8EB5BBC20A025C5002E8562 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A8EB5BA520A02273002E8562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A8EB5BA620A02273002E8562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A8EB5BA820A02273002E8562 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9580085ADDB2158BC5A62FF /* Pods-EShow.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CDYD36VCXR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/zhoujk-mac/Desktop/EShow/EShow/Expand/Macros/PrefixHeader.pch";
+				INFOPLIST_FILE = EShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bangqu.SanYemotorbike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e41e8c04-44fe-4818-ab61-91d7117d4922";
+				PROVISIONING_PROFILE_SPECIFIER = CMWDevelopment;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8EB5BA920A02273002E8562 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9F1650DA62FC2E7F3D312C1 /* Pods-EShow.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = CDYD36VCXR;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "/Users/zhoujk-mac/Desktop/EShow/EShow/Expand/Macros/PrefixHeader.pch";
+				INFOPLIST_FILE = EShow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bangqu.SanYemotorbike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "e41e8c04-44fe-4818-ab61-91d7117d4922";
+				PROVISIONING_PROFILE_SPECIFIER = CMWDevelopment;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8EB5B8C20A02273002E8562 /* Build configuration list for PBXProject "EShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EB5BA520A02273002E8562 /* Debug */,
+				A8EB5BA620A02273002E8562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8EB5BA720A02273002E8562 /* Build configuration list for PBXNativeTarget "EShow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8EB5BA820A02273002E8562 /* Debug */,
+				A8EB5BA920A02273002E8562 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A8EB5B8920A02273002E8562 /* Project object */;
+}
