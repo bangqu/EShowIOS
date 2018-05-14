@@ -10,7 +10,7 @@
 
 @implementation JKToolKit
 
-#pragma mark - 检测emoji
+#pragma mark -- 检测emoji
 + (BOOL)stringContainsEmoji:(NSString *)string {
     __block BOOL returnValue =NO;
     [string enumerateSubstringsInRange:NSMakeRange(0, [string length])
@@ -35,5 +35,14 @@
                             }];
     return returnValue;
 }
+
+
+
+
+
+
+
+
+
 
 @end

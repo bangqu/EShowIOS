@@ -901,7 +901,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CDYD36VCXR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/zhoujk-mac/Desktop/EShow/EShow/Expand/Macros/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/zhoujk-mac/WorkSpace/EShow-iOS/EShow/EShow/Expand/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = EShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -922,7 +922,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = CDYD36VCXR;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "/Users/zhoujk-mac/Desktop/EShow/EShow/Expand/Macros/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "/Users/zhoujk-mac/WorkSpace/EShow-iOS/EShow/EShow/Expand/Macros/PrefixHeader.pch";
 				INFOPLIST_FILE = EShow/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
